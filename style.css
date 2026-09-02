@@ -309,3 +309,8 @@ footer {
     color: #555;
     margin-top: 10px;
 }
+
+#email {
+    cursor: pointer;
+    text-decoration: underline;
+}
