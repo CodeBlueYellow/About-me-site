@@ -13,11 +13,11 @@ if (image){
 if (email){
     const emailAddress = email.textContent;
 
-    email.addEventListener("click", () =>{
+    email.addEventListener("click", () => {
         navigator.clipboard.writeText(emailAddress);
         email.textContent = "Copied to clipboard";
 
-        setTimeout(() =>{
+        setTimeout(() => {
             email.textContent = emailAddress;
 
         },2000);
